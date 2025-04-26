@@ -1,7 +1,25 @@
 # GenData
+
 # 📦 Projet de Génération de Datasets et d'Images IA
 
 Bienvenue dans notre application web combinant **génération de datasets** et **création d'images IA** !
+
+## 📑 Table des Matières
+
+1. [Description du Projet](#-description-du-projet)
+2. [Technologies Utilisées](#-technologies-utilisées)
+   - [Environnements de Développement et Outils Collaboratifs](#61-environnements-de-développement-et-outils-collaboratifs)
+   - [Technologies Frontend (Interface Utilisateur)](#62-technologies-frontend-interface-utilisateur)
+   - [Technologies d'Intelligence Artificielle](#63-technologies-dintelligence-artificielle)
+3. [Fonctionnalités principales](#-fonctionnalités-principales)
+4. [Structure du Projet](#-structure-du-projet)
+5. [Installation et Lancement](#-installation-et-lancement)
+   - [Backend (Python)](#backend-python)
+   - [Frontend (React)](#frontend-react)
+6. [Captures d'Écran](#-captures-décran)
+7. [Contact](#-contact)
+
+---
 
 ## 🚀 Description du Projet
 
@@ -19,16 +37,51 @@ Notre application propose deux fonctionnalités principales accessibles après a
 
 ## 🛠️ Technologies Utilisées
 
-- **Frontend** : React.js
-- **Backend** : Python (Flask / FastAPI ou autre)
-- **Modèles IA** : 
-  - **Fluxx** (génération avancée de datasets multi-classes)
-  - **Defocus** (génération d'images à partir d'une description)
+### 6.1 Environnements de Développement et Outils Collaboratifs
+
+- **Google Colab** :  
+  Utilisé pour les expérimentations IA initiales avec un accès gratuit aux GPU. Nous avons pu tester plusieurs modèles **text-to-image** et évaluer différents paramètres de génération dans un environnement cloud.
+
+- **Kaggle** :  
+  Utilisé durant la phase de prototypage pour tester la génération d'images textuelles à partir de prompts, exécuter un script complet de génération, et valider le pipeline IA avant son intégration dans notre plateforme.
+
+- **Visual Studio Code** :  
+  IDE principal du projet pour le développement backend (Flask), frontend (React), et la gestion des fichiers du projet. Il a également facilité le débogage et l'intégration avec GitHub.
+
+### 6.2 Technologies Frontend (Interface Utilisateur)
+
+- **React.js** :  
+  Utilisé pour construire l'interface utilisateur. React nous a permis de créer une application modulaire et dynamique avec des composants réutilisables, facilitant la gestion de la connexion utilisateur et de l'interaction avec l'application.
+
+- **CSS personnalisé & Bootstrap** :  
+  Utilisé pour styliser l'application avec un design responsive, cohérent, et adapté à tous types d'écrans. Bootstrap a été utilisé pour simplifier la gestion des layouts, formulaires, et boutons.
+
+### 6.3 Technologies d'Intelligence Artificielle
+
+- **PyTorch** :  
+  Utilisé comme bibliothèque principale pour charger les modèles, effectuer l'inférence sur GPU, manipuler les tenseurs, et contrôler le processus de génération d'images.
+
+- **LoRA (Low-Rank Adaptation)** :  
+  Permet d’adapter le style des images générées sans réentraîner complètement les modèles. LoRA a été utilisé pour injecter des styles spécifiques (réalisme, cartoon, etc.) tout en maintenant des ressources optimisées.
 
 ## 🔑 Fonctionnalités principales
 
-- Authentification sécurisée des utilisateurs
-- Interface intuitive pour entrer les descriptions
-- Génération et téléchargement des datasets compressés (.zip)
-- Visualisation et téléchargement des images générées
-- Architecture frontend-backend séparée pour plus de modularité
+- **Authentification sécurisée** des utilisateurs.
+- **Interface intuitive** pour entrer les descriptions de dataset ou les prompts pour la génération d'images.
+- **Génération et téléchargement** des datasets compressés (.zip) et des images générées.
+- **Visualisation des images générées** avant téléchargement.
+- **Architecture frontend-backend séparée** pour plus de modularité.
+
+## 📂 Structure du Projet
+
+```bash
+.
+├── backend/       # API Python
+│   ├── app.py     # Application backend principale
+│   └── models/    # Modèles IA utilisés (Fluxx, Defocus)
+├── frontend/      # Application React
+│   ├── src/       # Code source React
+│   └── public/    # Fichiers statiques React
+├── README.md      # Ce fichier
+└── requirements.txt # Dépendances backend Python
+
