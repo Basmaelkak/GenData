@@ -19,7 +19,6 @@ Bienvenue dans notre application web combinant **génération de datasets** et *
    - [Frontend (React)](#frontend-react)
 6. [Captures d'Écran](#captures-decran)
 7.  [Video démonstrative](#video-demonstrative)
-8. [Contact](#contact)
 
 
 ## 🚀 Description du Projet
