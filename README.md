@@ -7,19 +7,19 @@ Bienvenue dans notre application web combinant **génération de datasets** et *
 
 ## 📑 Table des Matières
 
-1. [Description du Projet](#-description-du-projet)
-2. [Technologies Utilisées](#-technologies-utilisées)
-   - [Environnements de Développement et Outils Collaboratifs](#61-environnements-de-développement-et-outils-collaboratifs)
-   - [Technologies Frontend (Interface Utilisateur)](#62-technologies-frontend-interface-utilisateur)
-   - [Technologies d'Intelligence Artificielle](#63-technologies-dintelligence-artificielle)
-3. [Fonctionnalités principales](#-fonctionnalités-principales)
-4. [Structure du Projet](#-structure-du-projet)
-5. [Installation et Lancement](#-installation-et-lancement)
-   - [Backend (Python)](#backend-python)
-   - [Frontend (React)](#frontend-react)
-6. [Captures d'Écran](#-captures-décran)
-7.  [Video démonstrative](#-vidéo-démonstative)
-8. [Contact](#-contact)
+1. [Description du Projet](#description-du-projet)
+2. [Technologies Utilisées](#technologies-utilisees)
+   - [Environnements de Développement et Outils Collaboratifs](#61-environnements-de-developpement-et-outils-collaboratifs)
+   - [Technologies Frontend (Interface Utilisateur)](#62-technologies-frontend-interface-utilisateur)
+   - [Technologies d'Intelligence Artificielle](#63-technologies-dintelligence-artificielle)
+3. [Fonctionnalités principales](#fonctionnalites-principales)
+4. [Structure du Projet](#structure-du-projet)
+5. [Installation et Lancement](#installation-et-lancement)
+   - [Backend (Python)](#backend-python)
+   - [Frontend (React)](#frontend-react)
+6. [Captures d'Écran](#captures-decran)
+7.  [Video démonstrative](#video-demonstrative)
+8. [Contact](#contact)
 
 
 ## 🚀 Description du Projet
