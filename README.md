@@ -74,7 +74,6 @@ Notre application propose deux fonctionnalités principales accessibles après a
 - **Architecture frontend-backend séparée** pour plus de modularité.
 
 ## 📂 Structure du Projet
-
 ```bash
 .
 ├── back/       # API Python
@@ -86,7 +85,7 @@ Notre application propose deux fonctionnalités principales accessibles après a
 ├── README.md      # Ce fichier
 └── requirements.txt # Dépendances backend Python
 
-#Installation et Lancement
+#⚙️ Installation et Lancement
 
 ### Backend (Python)
 
@@ -104,13 +103,13 @@ Notre application propose deux fonctionnalités principales accessibles après a
   2. Lancez le serveur Flask en exécutant :
      ```bash
      python flux.py
+     python data-process.py
      ```
-     Assurez-vous que les autres scripts nécessaires (comme `data-process.py`) sont également dans le répertoire ou spécifiez leur chemin.
-
 ### Frontend (React)
 
 1. **Installer les dépendances**  
-   Allez dans le dossier frontend et installez les dépendances avec npm :
+   Allez dans le dossier Front et installez les dépendances avec npm :
    ```bash
-   cd front
+   cd Front
    npm install
+   npm start
