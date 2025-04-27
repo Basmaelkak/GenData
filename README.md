@@ -1,6 +1,7 @@
 # GenData
 
-# 📦 Projet de Génération de Datasets et d'Images IA
+# 🚗🤖📊La création de données synthétiques pour les systèmes de surveillance des conducteurs à l'aide de l'IA générative.
+
 
 Bienvenue dans notre application web combinant **génération de datasets** et **création d'images IA** !
 
@@ -17,15 +18,15 @@ Bienvenue dans notre application web combinant **génération de datasets** et *
    - [Backend (Python)](#backend-python)
    - [Frontend (React)](#frontend-react)
 6. [Captures d'Écran](#-captures-décran)
-7. [Contact](#-contact)
+7.  [Video démonstrative](#-vidéo-démonstative)
+8. [Contact](#-contact)
 
----
 
 ## 🚀 Description du Projet
 
 Notre application propose deux fonctionnalités principales accessibles après authentification :
 
-1. **Génération de Dataset à partir d'une Description (Fluxx + Defocus)**  
+1. **Génération de Dataset à partir d'une Description (Flux + Defocus)**  
    - L'utilisateur saisit une description comprenant :
      - Le **nombre de classes** souhaité.
      - Le **nom des classes**.
@@ -69,19 +70,35 @@ Notre application propose deux fonctionnalités principales accessibles après a
 - **Authentification sécurisée** des utilisateurs.
 - **Interface intuitive** pour entrer les descriptions de dataset ou les prompts pour la génération d'images.
 - **Génération et téléchargement** des datasets compressés (.zip) et des images générées.
-- **Visualisation des images générées** avant téléchargement.
+- **Visualisation des images générées** apres téléchargement.
 - **Architecture frontend-backend séparée** pour plus de modularité.
 
 ## 📂 Structure du Projet
 
 ```bash
 .
-├── backend/       # API Python
-│   ├── app.py     # Application backend principale
-│   └── models/    # Modèles IA utilisés (Fluxx, Defocus)
-├── frontend/      # Application React
+├── back/       # API Python
+│   ├── flux.py     # Application backend principale
+│   └── data-process/    # Modèles IA utilisés (Fluxx, Defocus)
+├── front/      # Application React
 │   ├── src/       # Code source React
 │   └── public/    # Fichiers statiques React
 ├── README.md      # Ce fichier
 └── requirements.txt # Dépendances backend Python
+
+##⚙️installation-et-lancement
+###backend-python
+- **Version utilisée** :
+Flask==2.2.2
+flask-cors==3.1.1
+gradio-client==1.0.0
+- **Lancement du serveur Flask** :
+python flux.py
+data-process.py
+###frontend-react
+cd Front
+npm install
+npm start
+
+
 
