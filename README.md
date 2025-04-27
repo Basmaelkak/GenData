@@ -86,19 +86,31 @@ Notre application propose deux fonctionnalités principales accessibles après a
 ├── README.md      # Ce fichier
 └── requirements.txt # Dépendances backend Python
 
-##⚙️installation-et-lancement
-###backend-python
+## ⚙️ Installation et Lancement
+
+### Backend (Python)
+
 - **Version utilisée** :
-Flask==2.2.2
-flask-cors==3.1.1
-gradio-client==1.0.0
+  - Flask==2.2.2
+  - flask-cors==3.1.1
+  - gradio-client==1.0.0
+
 - **Lancement du serveur Flask** :
-python flux.py
-data-process.py
-###frontend-react
-cd Front
-npm install
-npm start
+  1. Installez les dépendances avec la commande suivante :
+     ```bash
+     pip install -r requirements.txt
+     ```
 
+  2. Lancez le serveur Flask en exécutant :
+     ```bash
+     python flux.py
+     ```
+     Assurez-vous que les autres scripts nécessaires (comme `data-process.py`) sont également dans le répertoire ou spécifiez leur chemin.
 
+### Frontend (React)
 
+1. **Installer les dépendances**  
+   Allez dans le dossier frontend et installez les dépendances avec npm :
+   ```bash
+   cd front
+   npm install
