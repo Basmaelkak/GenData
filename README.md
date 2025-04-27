@@ -86,7 +86,7 @@ Notre application propose deux fonctionnalités principales accessibles après a
 ├── README.md      # Ce fichier
 └── requirements.txt # Dépendances backend Python
 
-## ⚙️ Installation et Lancement
+#Installation et Lancement
 
 ### Backend (Python)
 
